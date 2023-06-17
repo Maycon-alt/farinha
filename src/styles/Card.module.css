@@ -1,0 +1,18 @@
+
+.card{
+    flex-grow: 1;
+    flex-shrink: .8;
+    flex-basis: 350px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    /* margin-bottom: 2em; */
+    border-radius: 1em;
+    border: 2px solid red;
+    box-shadow: 5px 5px 12px rgb(0, 0, 0.5);
+    background-color: #333;
+    color: white;
+}
