@@ -8,7 +8,7 @@ import Services from "./components/Services"
 
 export default function Home(){
   return (
-    <div className='main-container_2'>
+    <div className=''>
       <Slider/>
       <About/>
       <Services/>

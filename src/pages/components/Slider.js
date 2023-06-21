@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import cars from "./../../../public/images/imagem1.png"
 
 export default function Slider(){
     return(
@@ -9,7 +10,8 @@ export default function Slider(){
                 <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
                     {/* Item 1 */}
                     <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                        <img src="/images/imagem1.png" className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="image1"/>
+                        {/* <img src={cars} className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="image1"/> */}
+                        <Image className="rounded-2xl" width={420} height={404} src="/images/imagem1.png" alt="foto carro"/>
                     </div>
                     {/* Item 2 */}
                     <div className="hidden duration-700 ease-in-out" data-carousel-item>
