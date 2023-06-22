@@ -8,7 +8,7 @@ export default function Footer(){
                 <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
                     <a href="https://flowbite.com/" className="flex items-center">
-                        <Image src="/images/pokeball.png" width="30" height="30" className="h-8 mr-3" alt="FlowBite Logo" />
+                        <Image src="/images/pokeball.png" width="30" height="30" className="h-8 mr-3 sm:h-10 w-10" alt="carrolouco" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">AutoElite</span>
                     </a>
                 </div>
@@ -17,7 +17,7 @@ export default function Footer(){
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Recursos</h2>
                         <ul className="text-gray-600 dark:text-gray-400 font-medium">
                             <li className="mb-4">
-                                <a href="https://flowbite.com/" className="hover:underline">AutoElite</a>
+                                <a href="/" className="hover:underline">AutoElite</a>
                             </li>
                             <li>
                                 <a href="https://tailwindcss.com/" className="hover:underline">Parceiros</a>
