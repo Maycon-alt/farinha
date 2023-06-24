@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function About(){
     return(
-        <div id="historia" className="w-full lg:h-[455px] bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px] pl-[50px] pr-[50px]">
+        <div id="historia" className="bg-gray-600 w-full lg:h-[900px] bg-cover bg-center bg-no-repeat flex flex-col justify-end pb-10 sm:pb-32 py-32 lg:pb-[110px] pl-[50px] pr-[50px]">
             <h2 className="font-mono text-center text-5xl font-medium mt-2 pb-[50px]">Nossa Empresa</h2>
             {/* <h2 className="text- center text-4xl font-medium mt-2">Quem Somos</h2> */}
             <div className="container flex itens-start justify-between flex-col-reverse lg:flex-row">

@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Services(){
     return(
-        <div id="servicos" className="pl-[100px] pr-[100px] pb-[100px]">
+        <div id="servicos" className="bg-red-400 pl-[100px] pr-[100px] pb-[100px]">
             <h2 className="font-mono text-center text-5xl font-medium mt-2 pb-[50px]">Nossos Serviços</h2>
         <ol className="relative border-l border-gray-200 dark:border-gray-700">                  
             <li className="mb-10 ml-4">
