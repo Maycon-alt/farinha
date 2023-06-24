@@ -4,7 +4,7 @@ import styles from '../../styles/Card.module.css'
 export default function Card({product}){
     return(
         
-      <div className="">
+      <div>
           <div className={styles.card}>
               <img className="h-auto max-w-full rounded-lg" src={product.img}
                 alt={product.nome}/>
