@@ -34,7 +34,7 @@ export default function Catalogo(){
             <div className={styles.card_container}>
                 {data != null && data.map((product) => (
                 <div key={product.nome}>
-                <Card key={product.nome} product={product}/>
+                    {/* <Card key={product.nome} product={product}/> */}
                 </div>
             ))}
             </div>
