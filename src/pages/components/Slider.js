@@ -18,8 +18,8 @@ import 'swiper/css/pagination';
 export default function Slider(){
     //const slides = [carro1, carro2, carro3, carro4, carro5];
     return(
-        <div id="home" className="bg-black w-full lg:h-[610px] container pl-40 pt-3">
-            <div className="lg:h-full lg:w-full">
+        <div id="home" className="bg-black w-full lg:h-[610px] pl-40 pt-3">
+            <div className="lg:h-full lg:w-full  container">
             <Swiper
                 modules={[Navigation, Pagination]}
                 navigation

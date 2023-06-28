@@ -8,8 +8,8 @@ export default function Card({product}){
         
       <div>
           <div className={styles.card}>
-              {/* <img className="h-auto max-w-full rounded-lg" src={product.img}
-                alt={product.nome}/> */}
+              <img className="h-auto max-w-full rounded-lg" src={product.img}
+                alt={product.nome}/>
                 <div>
                   <p className="text-2xl font-semibold tracking-tight text-center">
                     {product.nome}
