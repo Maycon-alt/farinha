@@ -3,25 +3,24 @@ import styles from '../../styles/Card.module.css'
 //import Image from 'next/image'
 
 
-export default function Card(product){
+export default function Card({product}){
     return(
       
       <div>
           <div className={styles.card}>
-            {console.log(product.img)}
-              <img className="h-auto max-w-full rounded-lg" src={product.img}
-                alt={product.nome}/>
+              <img className="h-auto max-w-full rounded-lg" src={product?.img}
+                alt={product?.nome}/>
                 <div>
                   <p className="text-2xl font-semibold tracking-tight text-center">
-                    {product.nome}
+                    {product?.nome}
                   </p>
                   <br />
                   <p className="text-center">
-                    {product.preco}
+                    {product?.preco}
                   </p>
                   <br />
                     <p className="break-normal">
-                      {product.descricao}
+                      {product?.descricao}
                     </p>
               </div>
           </div>
