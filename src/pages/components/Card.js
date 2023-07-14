@@ -3,7 +3,7 @@ import styles from '../../styles/Card.module.css'
 import Image from 'next/image'
 
 
-export default function Card({product}){
+export default function Card(product){
     return(
       
       <div>
